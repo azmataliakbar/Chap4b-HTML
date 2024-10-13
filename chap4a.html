@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Document, Calender Highlights</title>
+  <style>
+    h1 {
+      color: red;
+      font-size: x-large;
+    }
+    h2, h3 {
+      color: blue;
+    }
+    h5 {
+      text-align: left;
+      color: rgb(165, 164, 164);
+    }
+    p {
+      font-size: 18px;
+    }
+    a {
+      color: rgb(246, 132, 151);
+    }
+    a:hover {
+      color: rgb(8, 238, 8);
+    }
+
+    /* Styling for the popup container */
+    .popup {
+            position: relative;
+            display: inline-block;
+            cursor: pointer;
+            color: blue;
+        }
+
+        /* Styling for the popup message */
+        .popup .popuptext {
+            visibility: hidden;
+            width: 160px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+            border-radius: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%; /* Position the popup above the link */
+            left: 50%;
+            margin-left: -80px; /* Center the popup */
+            opacity: 0; /* Start with the popup invisible */
+            transition: opacity 0.3s; /* Smooth transition effect */
+        }
+
+        /* Arrow pointing to the link */
+        .popup .popuptext::after {
+            content: "";
+            position: absolute;
+            top: 100%; /* Position at the bottom of the popup */
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #555 transparent transparent transparent;
+        }
+
+        /* Show the popup when hovering or focusing */
+        .popup:hover .popuptext,
+        .popup:focus-within .popuptext {
+            visibility: visible;
+            opacity: 1;
+        }
+  </style>
+</head>
+<body>
+<h1>1- Below inks will take you to direct location!</h1>
+  <a href="#january">January</a>
+  <br>
+  <!-- <a href="#fabruary">Go to bottom of page</a>
+  <a href="#march">Go to bottom of page</a> -->
+  <a href="#may">May</a>
+  <br>
+  <!-- <a href="#july">Go to bottom of page</a> -->
+  <a href="#august">August</a>
+  <br>
+<!--  <a href="#september">Go to bottom of page</a>
+  <a href="#november">Go to bottom of page</a> -->
+  <a href="#december">December</a>
+  <br>
+  <a href="#bottom">Go to bottom of page</a>
+
+
+  <h1>2- Calender Highlights in Pakistan!</h1>
+
+  <h2>Holidays and Observances :</h2>
+  <p>Here are some of the film festivals we will be attending this year.</p>
+  <!-- <p>Please <a href="tel:+1234567890">contact us</a> if you would like more information.</p> -->
+  <p>Please <span class="popup" tabindex="0"><u>contact us</u>
+    <span class="popuptext">Call us at: +1234567890</span>
+</span> if you would like more information.</p>
+
+  <a name="january"></a>
+  <h3>January</h3>
+  <p><u>New Year's Day of Pakistan</u>New Year's Day of Pakistan</p>
+  <p>New Year's Day</p>
+  <p>Ist January 2024</p>
+
+  <h3>February</h3>
+  <p>Kashmir Day in Pakistan</p>
+  <p>Kashmir Day</p>
+  <p>5th February</p>
+
+  <h3>March</h3>
+  <p>Pakistan Day in Pakistan</p>
+  <p>Pakistan Day</p>
+  <p>23rd March</p>
+
+  <a name="may"></a>
+  <h3>May</h3>
+  <p>Labour Day in Pakistan</p>
+  <p>Labour Day</p>
+  <p>1st May</p>
+
+  <h3>July</h3>
+  <p>Bank Day in Pakistan</p>
+  <p>Bank Holiday</p>
+  <p>31 July & 1st August</p>
+
+  <a name="august"></a>
+  <h3>August</h3>
+  <p>Pakistan's National Day</p>
+  <p> Independence Day</p>
+  <p>14th August</p>
+
+  <h3>September</h3>
+  <p>Defence Day in Pakistan</p>
+  <p>Defence Day</p>
+  <p>6th September</p>
+
+  <h3>November</h3>
+  <p>Iqbal Day in Pakistan</p>
+  <p>Iqbal Day</p>
+  <p>9th November</p>
+
+  <a name="december"></a>
+  <h3>December</h3>
+  <p>Quad E Azam Day in Pakistan</p>
+  <p>Quad E Azam Day</p>
+  <p>25th December</p>
+
+  <br>
+  <br>
+  <p>About Highlights of calender</p>
+
+
+  <a href="#top">Go to Top</a>
+  <a name="bottom"></a>
+  <br>
+<br>
+<br>
+<div class="link-container">
+  <a href="https://github.com/Ameen-Alam/PIAIC-HTML-CSS-Assignments/?tab=readme-ov-file">GitHub/GIAIC-HTML-CSS-Assignments</a>
+</div>
+
+<h5>Author: Azmat Ali</h5>
+</body>
+</html>
